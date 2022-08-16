@@ -28,7 +28,7 @@ include_once 'system\databases\DBConnection.class.php';
 		}
 		public function insert(){
 		    $conn = new DBConnection();
-		    $SqlCommand = "insert into `lojinha`.`usuario` (id_tipo_usuario,nome,prontuario, senha,corpo_academico) values ('".
+		    $SqlCommand = "insert into `hostdeprojetos_testejotati`.`usuario` (id_tipo_usuario,nome,prontuario, senha,corpo_academico) values ('".
 		  		   $this->getId_Tipo_Usuario()."','".
 		  		    $this->getNome()."','".
 		  		    $this->getProntuario()."','".
