@@ -13,6 +13,6 @@
     $usuario = new Usuarios($id_tipo_usuario, $nome, $prontuario, $senha, $corpo_academico);
     $usuario->insert();
  
-
+   echo (" Passei");
  
 ?>
