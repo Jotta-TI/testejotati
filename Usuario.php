@@ -9,10 +9,10 @@
     echo (" Esse é o seu nome ".$nome);
   
   require_once ".:/opt/cpanel/ea-php56/root/usr/share/pear/system/models/Usuarios.class.php";
-   /* 
+    
     $usuario = new Usuarios($id_tipo_usuario, $nome, $prontuario, $senha, $corpo_academico);
     $usuario->insert();
- */
+ 
 
  
 ?>
