@@ -8,7 +8,7 @@
     $corpo_academico   = (isset($_POST ['corpo_academico']) )?$_POST["corpo_academico"]: null;
 
   
-  require_once "system\models\Usuarios.class.php";
+  require_once ".:/opt/cpanel/ea-php56/root/usr/share/pear/home/hostdeprojetos/public_html/testejotati/system/models/Usuarios.class.php";
     
     $usuario = new Usuarios($id_tipo_usuario, $nome, $prontuario, $senha, $corpo_academico);
     $usuario->insert();
