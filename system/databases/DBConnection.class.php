@@ -11,8 +11,8 @@ class DBConnection {
     function __construct() {
        
         $this->setHost( "localhost" );
-        $this->setUser( "root" );
-        $this->setPass( "" );
+        $this->setUser( "hostdeprojetos_empresajotati" );
+        $this->setPass( "03060903jjj" );
         $this->setConn( mysqli_connect($this->host, $this->user, $this->pass) );
         // Check connection
         if (!$this->conn) {
