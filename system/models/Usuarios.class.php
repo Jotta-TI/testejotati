@@ -1,5 +1,5 @@
 <?php
-include_once '.:/opt/cpanel/ea-php56/root/usr/share/pear/system/databases/DBConnection.class.php';
+include_once '/home/hostdeprojetos/public_html/testejotati/system/databases/DBConnection.class.php';
 
 
 	class Usuarios  {
