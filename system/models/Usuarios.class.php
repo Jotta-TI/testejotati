@@ -35,7 +35,7 @@ include_once '/home/hostdeprojetos/public_html/testejotati/system/databases/DBCo
 					  $this->getSenha()."','".
 		  		    $this->getCorpo_Academico()."')";
 		    
-		  echo $SqlCommand;
+		  //echo $SqlCommand;
 		  $conn->query($SqlCommand);
 		}
 		public function toString(){
