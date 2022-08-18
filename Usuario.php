@@ -11,8 +11,9 @@
   require_once ".:/opt/cpanel/ea-php56/root/usr/share/pear/system/models/Usuarios.class.php";
     
     $usuario = new Usuarios($id_tipo_usuario, $nome, $prontuario, $senha, $corpo_academico);
+    echo ("1 Passei");
     $usuario->insert();
  
-   echo (" Passei");
+   echo ("2 Passei");
  
 ?>
