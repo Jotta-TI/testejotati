@@ -43,7 +43,7 @@
 
                 <button class="btn-login">Login</button> 
 
-                <button class="btn-cadastro"> <a href="index.html">Cadastre-Se</a></button> 
+                <button class="btn-cadastro"> <a href="index.php">Cadastre-Se</a></button> 
 
                 
 
